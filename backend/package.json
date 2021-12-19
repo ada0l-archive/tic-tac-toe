@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor -- index.js -h localhost -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcrypt": "^5.0.1",
+    "finalhandler": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "password-hash": "^1.2.2",
+    "pg": "^8.7.1",
+    "require": "^2.4.20",
+    "routes": "^2.1.0"
+  }
+}
